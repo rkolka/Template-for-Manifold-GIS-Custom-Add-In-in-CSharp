@@ -1,0 +1,13 @@
+install_tmpl.bat
+MyTemplate.vstemplate
+Properties\AssemblyInfo.cs
+tmpl_readme.txt
+tmpl.cs
+tmpl.csproj
+tmpl.Designer.cs
+tmpl.png
+tmpl.resx
+tmpl.xml
+uninstall_tmpl.bat
+__PreviewImage.png
+__TemplateIcon.png

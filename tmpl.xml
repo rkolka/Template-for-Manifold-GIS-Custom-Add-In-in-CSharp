@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<xml>
+	<addin>
+
+		<name>$safeprojectname$</name>
+		<copyright>Copyright $username$, $userdomain$ $year$.</copyright>
+		<description>Manifold Add-in created by $username$ in $time$.</description>
+		
+
+		<command>
+			<icon>C:\Program Files\Manifold System\Config\Add-Ins\$safeprojectname$\$safeprojectname$.png</icon>
+			<name>$safeprojectname$</name>
+			<form>C:\Program Files\Manifold System\Config\Add-Ins\$safeprojectname$\$safeprojectname$.dll;$safeprojectname$.$safeprojectname$</form>
+			<scriptEngine>C#.NET</scriptEngine>
+			<status>$safeprojectname$ Information in status-bar</status>
+			<tip>$safeprojectname$ Tooltip </tip>
+		</command>
+
+	</addin>
+
+</xml>

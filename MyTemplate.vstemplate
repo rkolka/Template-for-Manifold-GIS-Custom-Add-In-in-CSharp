@@ -1,0 +1,36 @@
+﻿<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Manifold® System add-in</Name>
+    <Description>This template gets you started with Manifold GIS Add-Ins. 
+It helps you to avoid many common mistakes along the way. Requires Manifold System 8.0.29. 
+Read more about add-ins at georeference.org/doc/add_ins.htm 
+Template version 0.9.7 tinyurl.com/nbabyd4 
+</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>AMfdAddIn</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$safeprojectname$.csproj" File="tmpl.csproj" ReplaceParameters="true">
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="readme.txt">tmpl_readme.txt</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="install_$safeprojectname$.bat">install_tmpl.bat</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="uninstall_$safeprojectname$.bat">uninstall_tmpl.bat</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$.cs">tmpl.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$.Designer.cs">tmpl.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$.resx">tmpl.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="$safeprojectname$.png">tmpl.png</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$.xml">tmpl.xml</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

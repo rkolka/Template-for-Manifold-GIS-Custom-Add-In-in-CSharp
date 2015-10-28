@@ -6,6 +6,8 @@ This template gets you started with Manifold GIS Add-Ins. It helps you to avoid 
 
 ## Quick Usage
 
+*Does not work because GitHub zip has extra directory in it. README needs fix!*
+
 1. **Download** zip from [here](https://github.com/rkolka/Template-for-Manifold-GIS-Custom-Add-In-in-CSharp/archive/master.zip) and put it into your Visual Studio Project Templates directory e.g. %userprofile%\Documents\Visual Studio 2013\Templates\ProjectTemplates
 2. **Unblock** the zip file.
 3. **Create a new project** in Visual Studio with this new template that should appear under Visual C#. Pick a name for your add-in and click OK. 

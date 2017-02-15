@@ -10,4 +10,4 @@ tmpl.resx
 tmpl.xml
 uninstall_tmpl.bat
 __PreviewImage.png
-__TemplateIcon.png
+__TemplateIcon.ico

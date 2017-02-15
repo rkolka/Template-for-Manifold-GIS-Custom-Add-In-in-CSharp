@@ -10,7 +10,7 @@ This template gets you started with Manifold GIS Add-Ins. It helps you to avoid 
 2. **Unblock** the zip file.
 3. **Create a new project** in Visual Studio with this new template that should appear under Visual C#. Pick a name for your add-in and click OK. 
 4. After successful project creation you can **build the project** without modifying anything.
-5. Browse to <projectdirectory>\bin\Debug directory. **Run install_*projectname*.bat**. It copies required files into Manifold's Config directory. NB! You have to have permission to modify Config directory. 
+5. Browse to *projectdirectory*\bin\Debug directory. **Run install_*projectname*.bat**. It copies required files into Manifold's Config directory. NB! You have to have permission to modify Config directory. 
 6. **Start a fresh** Manifold. Go to Tools->Add-Ins. Your add-in shuld be listed there. Click on the name.
 7. A new pane with silly text and your chosen name should appear.
 8. If problem occurs let me know

@@ -1,4 +1,4 @@
-# Visual Studio Template for Manifold GIS Custom Add-In in C# .
+# Visual Studio Template for Manifold GIS v8 Custom Add-In in C# .
 
 ### What's it for?
 This template gets you started with Manifold GIS Add-Ins. It helps you to avoid many common mistakes along the way.
